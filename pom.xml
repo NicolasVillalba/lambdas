@@ -5,12 +5,13 @@
 	<groupId>com.malsolo.java8.lambdas</groupId>
 	<artifactId>lambdas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
+		<junit.version>4.12</junit.version>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -24,5 +25,15 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+		</dependency>
+
+	</dependencies>
 
 </project>
